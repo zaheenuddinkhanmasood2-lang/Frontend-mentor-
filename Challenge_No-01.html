@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_No_02</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .body {
+            background-color: black;
+            background-image: url('/imgi_3_default.png');
+            background-size: cover;
+            width: 100vw;
+            height: 100vh;
+            border: 5px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pricing {
+            border: 2px solid black;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inputs {
+            border: 2px solid black;
+            padding: 5px;
+        }
+
+        .left_text_box {
+            width: 30%;
+            color: black;
+            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="body">
+        <!-- <div class="left"></div>
+            <div class="right"></div> -->
+        <div class="left_text_box">
+            <h1>Learn to Code by watching others</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur commodi consequuntur molestiae aut
+                expedita, cumque repudiandae, excepturi unde inventore hic voluptatibus amet, ullam earum eligendi.</p>
+        </div>
+        <div class="main-card">
+            <div class="pricing"><b>Try it 7-days</b>Then $20/month. thereafter</div>
+            <div class="form">
+                <!-- <label for="name"></label> -->
+                <div class="inputs firstname" id="name"><input type="text" placeholder="First Name"></div>
+                <div class="inputs secondname" id="name"><input type="text" placeholder="Last Name"></div>
+                <div class="inputs email_address" id="name"><input type="text" placeholder="Email Address"></div>
+                <div class="inputs password" id="name"><input type="text" placeholder="Password"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
