@@ -1,0 +1,22 @@
+{
+  "name": "frontend-mentor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "git:push": "git add . && git commit -m 'fast update' && git push"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaheenuddinkhanmasood2-lang/Frontend-mentor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zaheenuddinkhanmasood2-lang/Frontend-mentor/issues"
+  },
+  "homepage": "https://github.com/zaheenuddinkhanmasood2-lang/Frontend-mentor#readme"
+}
