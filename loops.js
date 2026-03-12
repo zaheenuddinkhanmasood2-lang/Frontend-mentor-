@@ -24,7 +24,7 @@ for (const key in object) {
     // const element = object[key];
     // console.log(object[key],object.DOB);
     console.log(key, ":", object[key]);
-    console.log("\"{'key'}\"", ":", object[key]);
+    console.log("\"",key,"\"", ":", object[key]);
 
 
 }
