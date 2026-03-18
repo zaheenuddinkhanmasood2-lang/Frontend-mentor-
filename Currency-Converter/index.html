@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <form class="converter">
+        <h2>Currency Converter</h2>
+        <div class="how-much">
+            <label for="amount">Enter amount</label>
+            <input type="number" class="amount-input" id="amount" placeholder="Enter amount" value="">
+        </div>
+
+        <div class="from-to">
+            <div class="from">
+                <div for="currfrom">From</div>
+                <div class="selectcontainer fromflag">
+                    <img src="https://flagcdn.com/24x18/us.png">
+                    <select name="currencyFrom" id="currfrom">
+                        <!-- <option value="USD" selected>USD</option> -->
+                    </select>
+                </div>
+            </div>
+            <i class="fa fa-exchange"></i>
+            <div class="to">
+                <div >To</div>
+                <div class="selectcontainer toflag">
+                    <img src="https://flagcdn.com/24x18/pk.png">
+                    <select name="currencyto" id="currto">
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <div class="message">1USD=280PKR</div>
+        <button type="submit" class="submitaction">Get Exchabge Rate</button>
+        </input>
+        <script src="Countries-codes.js"></script>
+        <script src="index2.js"></script>
+</body>
+
+</form>

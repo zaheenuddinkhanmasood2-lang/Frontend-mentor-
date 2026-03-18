@@ -1,0 +1,70 @@
+*{
+    border-radius: .5rem;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9edcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.amount-input
+{
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    border: 1px solid black;
+    width: 87%;
+    max-width: 100%;
+}
+
+.converter {
+    height: 22rem;
+    max-height: 50rem;
+    width: 15rem;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: white;
+    /* align-content: space-between; */
+}
+.how-much{
+    width: 100%;
+}
+.how-much input{
+    width: 100%;
+    box-sizing: border-box;
+    border-color: gray;
+    /* outline: black; */
+    
+}
+
+.selectcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectcontainer select{
+    border: none;
+    outline: none;
+}
+
+
+button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: #a6438e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    /* height: 1.5rem; */
+}
+.from-to{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
